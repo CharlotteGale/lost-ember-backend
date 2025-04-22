@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ironbound",
+    "description": "Front-line warriors forged in iron discipline and raw strength.",
+    "core_stats": ["STR", "CON"],
+    "bonuses": { "Endurance": 2 },
+    "perks": ["Steel Resolve", "Shield Slam"],
+    "flavor": "Every scar tells a story. Every step breaks the earth beneath them."
+  },
+  {
+    "name": "Echoblade",
+    "description": "Shadow-bound rogues who channel sound and silence alike.",
+    "core_stats": ["DEX", "CHA"],
+    "bonuses": { "Stealth": 2, "Sleight of Hand": 2 },
+    "perks": ["Stealth Attack", "Shadow Step"],
+    "flavor": "Where light flickers and walls whisper, the Echoblade dances unseen."
+  },
+  {
+    "name": "Thorncaller",
+    "description": "Nature’s agents of vengeance, protectors of the wild places.",
+    "core_stats": ["WIS", "DEX"],
+    "bonuses": { "Nature": 2 },
+    "perks": ["Beast Speech", "Rootbind"],
+    "flavor": "They speak for the trees — and sometimes, the trees scream."
+  },
+  {
+    "name": "Oathbearer",
+    "description": "Sacred warriors bound to ancient pacts of light, law, or vengeance.",
+    "core_stats": ["CHA", "STR"],
+    "bonuses": { "Divine Presence": 2 },
+    "perks": ["Radiant Smite", "Oathbound Presence"],
+    "flavor": "When they speak, enemies tremble. When they strike, evil burns."
+  },
+  {
+    "name": "Embervein",
+    "description": "Spellcasters fueled by raw elemental magic.",
+    "core_stats": ["CHA", "WIS"],
+    "bonuses": { "Arcana": 2 },
+    "perks": ["Elemental Channel", "Flame Burst"],
+    "flavor": "Magic crackles in their blood, a wildfire barely held in check."
+  }
+]

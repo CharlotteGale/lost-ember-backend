@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Faen",
+    "description": "Ancient forest-dwelling kin with silver eyes and sharp instincts.",
+    "bonuses": { "PER": 2 },
+    "perks": ["Beast Speech", "Nature Affinity"],
+    "flavor": "Wanderers of twilight groves, Faen move with the quiet wisdom of trees."
+  },
+  {
+    "name": "Kindred",
+    "description": "Adaptable humans with a knack for making their own fate.",
+    "bonuses": { "STR": 1, "CHA": 1 },
+    "perks": ["Quick Learner", "Will of Iron"],
+    "flavor": "No magic runs through their blood, yet they survive — and thrive — regardless."
+  },
+  {
+    "name": "Emberkin",
+    "description": "Born of heat and chaos, Emberkin walk the edge of control and destruction.",
+    "bonuses": { "CHA": 2 },
+    "perks": ["Flickerstep", "Fireborne"],
+    "flavor": "From hearthfire to wildfire, their soul flickers with elemental power."
+  }
+]

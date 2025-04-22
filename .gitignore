@@ -1,7 +1,13 @@
+# Python
 __pycache__/
-*.pyc
-.env
-.DS_Store
-*.sqlite3
+*.py[cod]
 *.log
+
+# Virtual env
 .venv/
+
+# OS / IDE
+.DS_Store
+*.swp
+*.sublime-workspace
+*.idea/

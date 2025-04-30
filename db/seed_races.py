@@ -1,6 +1,5 @@
 import json
-import psycopg2
-from db_config import get_connection
+from app.config.db_config import get_connection
 
 def seed_races():
     with open('races.json', 'r') as file:

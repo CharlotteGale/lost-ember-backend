@@ -1,0 +1,27 @@
+{
+  "Faen": {
+    "description": "Attuned to the wilds and whispers between worlds, the Faen are beings of quiet magic and ancient memory. They carry grace in their blood and secrets in their silence, forever shaped by the echoes of what was.",
+    "mechanic": {
+      "name": "Echoes of the Past",
+      "description": "Faen experience flashes of ancient memory at key moments, providing warnings, insights, or sudden recollections that can unlock hidden paths, reveal dangers early or auto-succeed on Wellspring or Echoes checks."
+    },
+    "perks": [
+      "Magical Resistance",
+      "Heightened perception in natural environments",
+      "Mild resistance to memory-altering effects"
+    ],
+    "flavor": "Rare and ethereal, Faen are often viewed with awe or unease in civilised lands. Their presence stirs something primal in the hearts of others.",
+    "visual theme": {
+      "palette": [
+        "#d9e6d0",
+        "#6f918b",
+        "#c6b7df"
+      ],
+      "symbols": [
+        "leaf",
+        "moon",
+        "echo spiral"
+      ]
+    }
+  }
+}

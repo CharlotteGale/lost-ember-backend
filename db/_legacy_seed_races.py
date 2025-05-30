@@ -2,7 +2,7 @@ import json
 from app.config.db_config import get_connection
 
 def seed_races():
-    with open('races.json', 'r') as file:
+    with open('_legacy_races.json', 'r') as file:
         races = json.load(file)
 
     conn = get_connection()

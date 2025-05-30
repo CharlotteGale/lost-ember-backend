@@ -2,7 +2,7 @@ import json
 from app.config.db_config import get_connection
 
 def seed_classes():
-    with open('classes.json', 'r') as file:
+    with open('_legacy_classes.json', 'r') as file:
         classes = json.load(file)
 
     conn = get_connection()

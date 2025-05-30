@@ -1,0 +1,87 @@
+{
+  "Faen": {
+    "Highborn": {
+      "description": "Highborn Faen are shaped by echoes of ancient cities and lost empires. They move with practiced elegance, bearing the memories of civilization's triumphs and failings alike.",
+      "stat_bonuses": {
+        "Lore": 1
+      },
+      "abilities": [
+        {
+          "name": "Urban Resonance",
+          "description": "Gain advantage when interacting with complex social or political structures."
+        },
+        {
+          "name": "Memory of Stone",
+          "description": "+2 to Endure rolls while in constructed environments (cities, ruins, fortresses)."
+        }
+      ],
+      "cantrip": {
+        "granted": true,
+        "description": "You know one cantrip of your choice. Lore is your ability for casting it."
+      },
+      "languages": {
+        "default": ["Common", "Mythren"],
+        "additional_choices": 1
+      },
+      "visual_theme": {
+        "palette": ["#dcd4ef", "#a89bcf", "#eae6f5"],
+        "symbols": ["spire", "mirror", "glyph"]
+      }
+    },
+    "Wildborn": {
+      "description": "Wildborn Faen are the breath of untamed forests, singing rivers, and endless plains. Their instincts are sharper than memory, rooted in the living pulse of the wild world.",
+      "stat_bonuses": {
+        "Grace": 2
+      },
+      "abilities": [
+        {
+          "name": "Rooted Stride",
+          "description": "Move through difficult terrain without penalty."
+        },
+        {
+          "name": "Beastwhisper",
+          "description": "Gain advantage when communicating with or calming natural beasts."
+        }
+      ],
+      "cantrip": {
+        "granted": false
+      },
+      "languages": {
+        "default": ["Common", "Mythren", "Vaelish"],
+        "additional_choices": 0
+      },
+      "visual_theme": {
+        "palette": ["#b4ccaa", "#756e50", "#c1a480"],
+        "symbols": ["leaf", "river", "fang"]
+      }
+    },
+    "Darkborn": {
+      "description": "Darkborn Faen forsook the surface long ago, carving a new existence in the endless Deep Roads. Shadows cling to them like old memories, and their souls thrum with the silence of forgotten things.",
+      "stat_bonuses": {
+        "Presence": 2
+      },
+      "abilities": [
+        {
+          "name": "Shadowmeld",
+          "description": "+2 to Veiling rolls while in dim light or darkness."
+        },
+        {
+          "name": "Silent Memory",
+          "description": "Immune to basic mind-reading or detection magic probing for surface thoughts."
+        }
+      ],
+      "cantrip": {
+        "granted": false
+      },
+      "languages": {
+        "default": ["Common", "Velvryn"],
+        "read_only": ["Mythren"],
+        "additional_choices": 0
+      },
+      "visual_theme": {
+        "palette": ["#bfb1cc", "#554b68", "#2f2a38"],
+        "symbols": ["eye", "void spiral", "stalactite"]
+      }
+    }
+  }
+}
